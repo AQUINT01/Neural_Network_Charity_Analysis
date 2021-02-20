@@ -3,7 +3,7 @@
 
 Alphabet Soup is a privately funded, philanthropic organization whose goal is to raise money to assist organizations that protect the environment, improve people’s well-being, and unify the world. For the past 20 years, it has raised and donated over $10 billion to recipients worthy of its mission.
 
-Unfortunately not every donation the company makes is impactful. In some cases, an organization will take the money and disappear. As a result, we were required to create a mathematical data-driven solution that can predict which organizations are worth donating to and which to avoid.
+Unfortunately not every donation the company makes is impactful. In some cases, an organization will take the money and disappear. As a result, I created a mathematical data-driven solution that can predict which organizations are worth donating to and which to avoid.
 
 
 
@@ -40,7 +40,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 - ### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
--  After many attempts of reconfiguring the number of neurons, hidden-layers, and activation functions, The model with 4 hidden-layers yielded the best accuracy rate of **72.43%**, *refer to attached screenshot below*.
+-  After many attempts of reconfiguring the number of neurons, hidden-layers, and activation functions, the model with 4 hidden-layers yielded the best accuracy rate of **72.43%**, *refer to attached screenshot below*.
 <img width="1118" src="https://github.com/AQUINT01/Neural_Network_Charity_Analysis/blob/main/images/model4.png">
 
 
@@ -49,7 +49,7 @@ Were you able to achieve the target model performance?
 
 
 What steps did you take to try and increase model performance?
-- The original model started with two hidden-layers and 80 and 30 neurons, yielding a **72.18%** accuracy rate, as green-highlighted below.
+- The original model started with 2 hidden-layers and 80 and 30 neurons, yielding a **72.18%** accuracy rate, as green-highlighted below.
 
 <img width="1118" src="https://github.com/AQUINT01/Neural_Network_Charity_Analysis/blob/main/images/model1.png">
 
@@ -61,9 +61,9 @@ What steps did you take to try and increase model performance?
 
 ## Summary: 
 
-After careful reviewing the four models created, the model with 4 hidden-layers slightly performed better than the other models.  When comparing the accuracy rates of the  4 hidden-layer model, *72.43%*, with the 2 hidden-layer model,*72.18%*, the rate differences are within range of each other.  A case can be made to suggest that perhaps the 2 hidden-layer model with an accuracy rate of **72.18%** is respectable enough for the model's predictive result.  However, it's worth noting that even if the 2 hidden-layer model is "acceptable", all models created failed to achieved the target model performance and thus all models would be rejected.
+After careful reviewing the four models created, the model with 4 hidden-layers slightly performed better than the other models.  When comparing the accuracy rates of the  4 hidden-layer model, *72.43%*, with the 2 hidden-layer model,*72.18%*, the rate differences are within range of each other.  A case can be made to suggest that perhaps the 2 hidden-layer model with an accuracy rate of **72.18%** is respectable enough for the model's predictive result.  However, it's worth noting that even if the 2 hidden-layer model is "acceptable", all models created failed to achieved the target model performance and thus all models are rejected.
 
-Further optimization is recommended to achieve the desired performance.  For starters, it would be wise to re-examine the dataset in hopes of finding other feature variables that may be negatively impacting the model. As an example, how useful is the inclusion of the 'ASK_AMT' variable?  This information has no merit on the use of  funds and may be overly weighted within the model.  
+Further optimization is recommended to achieve the desired performance.  For starters, it would be wise to re-examine the dataset in hopes of finding other feature variables that negatively impact the model. As an example, how useful is the inclusion of the 'ASK_AMT' variable?  This information has no merit on the use of  funds and may be overly weighted within the model.  
 
 An alternate solution would be to test a different machine learning technique such as the Random Forest. The Random Forest algorithm creates decision trees on randomly selected data samples, gets prediction from each trees and selects the best solution by means of voting. It has a variety of applications and can be used to classify corrupt organizations.
 
