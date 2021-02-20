@@ -21,8 +21,8 @@ What variable(s) are considered the target(s) for your model?
 
 What variable(s) are considered to be the features for your model?
 - The feature variables of this model are;
-        -   APPLICATION_TYPE
-        -   AFFILIATION
+        -    APPLICATION_TYPE
+        -    AFFILIATION
         -   CLASSIFICATION
         -   USE_CASE
         -   ORGANIZATION
